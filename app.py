@@ -255,69 +255,12 @@ st.info(
     "and better waste management."
 )
 
-st.markdown("""
-<div style="
-    background: linear-gradient(135deg, #064e3b, #047857, #10b981);
-    padding: 40px 20px;
-    border-radius: 25px;
-    text-align: center;
-    color: white;
-    box-shadow: 0 8px 25px rgba(16,185,129,0.3);
-    margin-top: 30px;
-">
+st.markdown("---")
 
-    <h1 style="
-        font-size: 42px;
-        margin-bottom: 10px;
-        color: white;
-    ">
-        Thank You!
-    </h1>
+st.title("💜 Thank You 💜")
 
-    <p style="
-        font-size: 18px;
-        margin-bottom: 25px;
-        color: #ecfdf5;
-    ">
-        Together, let's make our planet cleaner and greener 🌍
-    </p>
+st.subheader("Reduce • Reuse • Recycle")
 
-    <div style="
-        font-size: 45px;
-        margin: 15px 0;
-    ">
-        💚
-    </div>
+st.write("Let's Keep Our Environment Clean and Green 🌍")
 
-    <hr style="
-        width: 60%;
-        border: 1px solid #a7f3d0;
-        margin: 20px auto;
-    ">
-
-    <p style="
-        font-size: 16px;
-        color: #d1fae5;
-        margin-bottom: 5px;
-    ">
-        Created with love and dedication by
-    </p>
-
-    <h2 style="
-        font-size: 27px;
-        color: white;
-        margin-top: 5px;
-    ">
-        Akshita Parmar
-    </h2>
-
-    <p style="
-        font-size: 14px;
-        color: #d1fae5;
-        margin-top: 15px;
-    ">
-        ♻️ Smart Waste Management Project
-    </p>
-
-</div>
-""", unsafe_allow_html=True)
+st.markdown("### Created by Akshita Parmar")
