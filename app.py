@@ -257,7 +257,7 @@ st.info(
  
 st.markdown("---")
 
-st.title("💜 Thank You! 💜")
+st.title(" 🩷Thank You🩷 ")
 
 st.subheader("🌍 Let's Keep Our Environment Clean and Green")
 
@@ -265,6 +265,6 @@ st.info("♻️ Reduce • Reuse • Recycle")
 
 st.write("✨ Created by")
 
-st.header("Akshita Parmar 💗")
+st.header("Akshita Parmar 🩵")
 
 st.caption("🌸 Thank you for visiting my Smart Waste Management Dashboard! 🌸")
