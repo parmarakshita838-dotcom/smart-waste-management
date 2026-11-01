@@ -257,7 +257,7 @@ st.info(
  
 st.markdown("---")
 
-st.title(" 🩷Thank You🩷 ")
+st.title("Thank You 💗")
 
 st.subheader("🌍 Let's Keep Our Environment Clean and Green")
 
