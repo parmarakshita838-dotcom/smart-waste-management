@@ -1,5 +1,4 @@
 
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -256,42 +255,68 @@ st.info(
     "and better waste management."
 )
 
-# Final Thank You Section
 st.markdown("""
 <div style="
-    text-align:center;
-    background:linear-gradient(135deg,#34205c,#10152f);
-    padding:35px 20px;
-    border-radius:20px;
-    border:1px solid #b8f7ff;
-    margin-top:30px;
+    background: linear-gradient(135deg, #064e3b, #047857, #10b981);
+    padding: 40px 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 25px rgba(16,185,129,0.3);
+    margin-top: 30px;
 ">
 
-    <h1 style="color:#b8f7ff;">
-        💜 Thank You
+    <h1 style="
+        font-size: 42px;
+        margin-bottom: 10px;
+        color: white;
+    ">
+        Thank You!
     </h1>
 
-    <h3 style="color:#ffffff;">
-        Reduce • Reuse • Recycle
-    </h3>
-
-    <p style="color:#d8e7ff;font-size:17px;">
-        Let's Keep Our Environment Clean and Green 🌍
+    <p style="
+        font-size: 18px;
+        margin-bottom: 25px;
+        color: #ecfdf5;
+    ">
+        Together, let's make our planet cleaner and greener 🌍
     </p>
 
-    <hr style="border:1px solid #b8f7ff;">
+    <div style="
+        font-size: 45px;
+        margin: 15px 0;
+    ">
+        💚
+    </div>
+
+    <hr style="
+        width: 60%;
+        border: 1px solid #a7f3d0;
+        margin: 20px auto;
+    ">
 
     <p style="
-        color:#b8f7ff;
-        font-size:18px;
-        font-weight:bold;
-        margin-top:20px;
+        font-size: 16px;
+        color: #d1fae5;
+        margin-bottom: 5px;
     ">
-        Created by Akshita Parmar
+        Created with love and dedication by
     </p>
 
-    <p style="color:#ffffff;font-size:14px;">
-        Smart Waste Management Project
+    <h2 style="
+        font-size: 27px;
+        color: white;
+        margin-top: 5px;
+    ">
+        Akshita Parmar
+    </h2>
+
+    <p style="
+        font-size: 14px;
+        color: #d1fae5;
+        margin-top: 15px;
+    ">
+        ♻️ Smart Waste Management Project
     </p>
 
 </div>
