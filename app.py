@@ -254,13 +254,90 @@ st.info(
     "Proper waste segregation can support cleaner surroundings "
     "and better waste management."
 )
+ 
+st.markdown("""
+<style>
+.thankyou-card {
+    background: linear-gradient(135deg, #fff8ff, #f3e8ff, #ffeaf4);
+    border: 2px solid #d8b4fe;
+    border-radius: 25px;
+    padding: 35px 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(147, 51, 234, 0.15);
+    margin-top: 25px;
+}
 
-st.markdown("---")
+.thankyou-title {
+    font-size: 55px;
+    font-family: cursive;
+    font-weight: bold;
+    background: linear-gradient(90deg, #171717, #9333ea, #db2777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
 
-st.title("Thank You")
+.thankyou-message {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 25px;
+}
 
-st.subheader("Reduce • Reuse • Recycle")
+.recycle-text {
+    display: inline-block;
+    background: #ead5ff;
+    color: #581c87;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
 
-st.write("Let's Keep Our Environment Clean and Green 🌍")
+.created-text {
+    font-size: 18px;
+    color: #444444;
+    font-style: italic;
+}
 
-st.markdown("### Created by Akshita Parmar")
+.creator-name {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #7e22ce;
+    margin-top: 5px;
+}
+</style>
+
+<div class="thankyou-card">
+
+    <div style="font-size:40px;">
+        ♻️ ✨ 🌸
+    </div>
+
+    <div class="thankyou-title">
+        Thank You! 💜
+    </div>
+
+    <div class="thankyou-message">
+        Let's Keep Our Environment Clean and Green 🌍
+    </div>
+
+    <div class="recycle-text">
+        🌿 Reduce &nbsp; • &nbsp; Reuse &nbsp; • &nbsp; Recycle 🌿
+    </div>
+
+    <div class="created-text">
+        Created by
+    </div>
+
+    <div class="creator-name">
+        Akshita Parmar 💗
+    </div>
+
+    <div style="font-size:25px; margin-top:15px;">
+        🌸 💜 ✨
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
